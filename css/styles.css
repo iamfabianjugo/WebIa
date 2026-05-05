@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #002341, #0e70d1);
+  background: linear-gradient(to right, #312c85, #0e70d1);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -15,7 +15,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background: #000336;
+  background: #312c85;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -50,7 +50,7 @@ nav ul li a:hover {
 }
 
 .login-container {
-  background: rgb(0, 3, 85);
+  background: #312c85;
   padding: 80px;
   border-radius: 10px;
   text-align: center;
@@ -67,7 +67,7 @@ input {
 
 button {
   padding: 10px 20px;
-  background: #4facfe;
+  background: #0176dc;
   border: none;
   color: white;
   cursor: pointer;
@@ -75,7 +75,7 @@ button {
 }
 
 button:hover {
-  background: #007bff;
+  background: #2018b0;
 }
 
 #error {
@@ -84,4 +84,16 @@ button:hover {
 
 .hidden {
   display: none;
+}
+
+/* FOOTER */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #312c85;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
